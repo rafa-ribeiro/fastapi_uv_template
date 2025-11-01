@@ -2,7 +2,7 @@
 
 This is a template for easily bootstrap a Python project using:
 
-- Python 3.12.8
+- Python {{cookiecutter.min_python_version}}
 - FastAPI standard
 - Pytest
 - UV for dependencies management
@@ -18,7 +18,7 @@ uv init python_app_template
 2. Creating (and downloading if it not found) a specific Python version:
 
 ```sh
-uv venv --python 3.12
+uv venv --python {{cookiecutter.min_python_version}}
 ```
 
 3. Activating a Python virtual environment:
