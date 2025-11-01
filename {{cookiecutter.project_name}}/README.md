@@ -7,7 +7,7 @@ This is a template for easily bootstrap a Python project using:
 - Pytest
 - UV for dependencies management
 
-# Creating this Template
+## Creating this Template
 
 1. Creating a project using UV:
 
@@ -45,3 +45,12 @@ uv add pytest --dev
 uv pip install cookiecutter
 ```
 
+## Using this Template
+
+To create a new project using this template, run the following command:
+
+```sh
+cookiecutter fastapi_uv_template
+```
+
+Replace `fastapi_uv_template` with the local path or URL to this template repository.
