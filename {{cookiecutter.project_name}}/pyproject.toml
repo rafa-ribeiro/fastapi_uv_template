@@ -1,0 +1,14 @@
+[project]
+name = "{{cookiecutter.project_name}}"
+authors = [
+    { name = "{{cookiecutter.author_name}}" },
+]
+version = "{{cookiecutter.project_version}}"
+description = "{{cookiecutter.project_description}}"
+readme = "README.md"
+requires-python = ">={{cookiecutter.min_python_version}}"
+dependencies = [
+    "fastapi[standard]>=0.115.13",
+    "pydantic-settings>=2.10.0",
+    "uvicorn>=0.34.3",
+]

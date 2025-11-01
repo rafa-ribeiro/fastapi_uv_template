@@ -1,0 +1,7 @@
+{
+  "project_name": "My FastAPI Project",
+  "project_version": "0.1.0",
+  "project_description": "A FastAPI project + UV",
+  "author_name": "Rafael",
+  "min_python_version": "3.12.8"
+}
