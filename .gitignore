@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+
+# Virtual environments
+.venv
+
+# Application
+docker/.env
+.python-version
+
+# Testing
+coverage.xml
+.coverage
+
+# Pycharm
+.idea/
+
